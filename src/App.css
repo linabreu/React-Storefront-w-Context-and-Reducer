@@ -80,6 +80,8 @@ body {
   text-shadow: -1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #eee, 1px 1px 0 #eee;
 }
 
+
+
 .branded-white{
   color:white;
   font-family: 'Notable', sans-serif;
@@ -96,6 +98,10 @@ body {
   color:white;
   font-family: 'Notable', sans-serif;
   text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+}
+
+.branded-white-black:hover{
+  text-shadow: -0.5px -0.5px 0 #BF4904, 0.5px -0.5px 0 #BF4904, -0.5px 0.5px 0 #BF4904, 0.5px 0.5px 0 #BF4904;
 }
 
 .blk-outline{

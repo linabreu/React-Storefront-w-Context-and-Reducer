@@ -23,7 +23,7 @@ const {
           <Navbar.Brand>
             <Link to = "/" className = "branded fs-2" >MidMod</Link>
           </Navbar.Brand>
-          <Link to = "/shop" className = "text-white text-decoration-none branded blk-outline" >Shop</Link>
+          <Link to = "/shop" className = "text-decoration-none branded-white-black" >Shop</Link>
           <Navbar.Text className = 'search'>
             <FormControl 
                  

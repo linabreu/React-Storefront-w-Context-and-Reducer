@@ -15,7 +15,7 @@ const products = [
         price: 1299.99,
         image: require('../Images/Abigail.jpg'),
         //image: 'dining_table.jpg',
-        inStock: 3,
+        inStock: 1,
         fastDelivery: false,
         rating: 4,
         category: 'sofa'

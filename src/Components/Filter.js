@@ -41,7 +41,7 @@ const Filter = () => {
             <input type="checkbox" 
              onChange ={() => 
                 productDispatch({
-                    type: "FILTER_BY_STOCK",
+                    type: "SORT_BY_STOCK",
                 })}
                 checked = {byStock}
             />

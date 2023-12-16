@@ -219,7 +219,7 @@ function Checkout() {
                 <Col lg ={1}></Col>
                 <Col lg ={10}>
                     <Form.Group controlId="card-number" className = "input-field">
-                        <Form.Control type="text" placeholder="Card Number" />
+                        <Form.Control type="text" placeholder="Card Number" required/>
                     </Form.Group>
                 </Col>
                 <Col lg ={1}></Col>
@@ -228,12 +228,12 @@ function Checkout() {
                 <Col lg ={1}></Col>
                 <Col lg ={5}>
                     <Form.Group controlId="card-exp">
-                        <Form.Control placeholder="Expiration (MM/YY)"/>
+                        <Form.Control placeholder="Expiration (MM/YY)" required/>
                     </Form.Group>
                 </Col>
             <Col lg ={5} >
             <Form.Group controlId="card-ccv"> 
-                <Form.Control placeholder = "CCV" className = "mobile-margin"/>
+                <Form.Control placeholder = "CCV" className = "mobile-margin" required/>
             </Form.Group>
             </Col>
             <Col lg ={1}></Col>
@@ -371,7 +371,6 @@ function Checkout() {
             <div className = "total-col mt-5 rounded mb-3">
                 <h3 className = "text-center branded-white pt-3 pb-2">Total</h3>
                 <p className = "mb-3 text-white text-center" style = {{fontWeight: 700, fontSize: 20}}>Item Subtotal: ${total}</p>
-                <p className = "mb-3 text-white text-center" style = {{fontWeight: 700, fontSize: 20}}>Item Tax: ${tax}</p>
                 <p className = "mb-3 text-white text-center" style = {{fontWeight: 700, fontSize: 20}}>Shipping: ${shippingPrice}</p>
                 <hr className = "w-50 text-white m-auto"></hr>
                 <p className = "mb-3 text-white text-center mt-3 pb-3" style = {{fontWeight: 700, fontSize: 30}}>${Number(total + shippingPrice)}</p>
